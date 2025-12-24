@@ -12,7 +12,7 @@ This repository explores sequence modeling using Recurrent Neural Networks (RNN)
 This project uses a **SimpleRNN** to learn patterns in a periodic signal.
 - **Goal:** Predict future values based on the past 50 time steps.
 - **Key Techniques:** Data windowing, Many-to-One architecture.
-- **File:** `main.py` (or `sine_wave_rnn.py`)
+- **File:** `sine_wave_rnn.py`
 
 ## 📌 2. Image Classification with LSTM (Fashion-MNIST)
 This project treats 28x28 images as a sequence of 28 rows to perform classification.
