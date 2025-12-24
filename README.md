@@ -1,21 +1,29 @@
-# Time Series Prediction with SimpleRNN
+# Deep Learning with RNN & LSTM
 
-This repository contains a simple implementation of a Recurrent Neural Network (RNN) to predict future values of a time series. The project uses a synthetically generated sine wave with added noise to demonstrate how RNNs can learn sequential patterns.
+This repository explores sequence modeling using Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks. It contains two distinct implementations demonstrating regression and classification tasks.
 
-## 📌 Project Overview
-The goal of this project is to perform time-series forecasting. It covers:
-- Generating a synthetic sine wave dataset with Gaussian noise.
-- Data preprocessing using the **Sliding Window** technique.
-- Building a deep learning model with **SimpleRNN** layers using TensorFlow/Keras.
-- Visualizing the model's performance by comparing predicted values against actual data.
+## 📁 Project Structure
+1. **Time Series Prediction (SimpleRNN):** Predicting the next value in a noisy sine wave.
+2. **Fashion-MNIST Classification (LSTM):** Classifying clothing items by treating image rows as sequences.
+
+---
+
+## 📌 1. Time Series Prediction (SimpleRNN)
+This project uses a **SimpleRNN** to learn patterns in a periodic signal.
+- **Goal:** Predict future values based on the past 50 time steps.
+- **Key Techniques:** Data windowing, Many-to-One architecture.
+- **File:** `sine_wave_rnn.py`
+
+## 📌 2. Image Classification with LSTM (Fashion-MNIST)
+This project treats 28x28 images as a sequence of 28 rows to perform classification.
+- **Goal:** Categorize images into 10 clothing types.
+- **Key Techniques:** LSTM layers, Dropout for regularization, Softmax activation.
+- **File:** `fashion_mnist_lstm.py`
+
+---
 
 ## 🛠️ Tech Stack
 - **Python 3.x**
-- **TensorFlow / Keras** (Deep Learning Framework)
-- **NumPy** (Data Processing)
-- **Matplotlib** (Data Visualization)
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/RamazanKaratut/Time-Series-Prediction-using-SimpleRNN.git]
+- **TensorFlow / Keras**
+- **NumPy**
+- **Matplotlib**
