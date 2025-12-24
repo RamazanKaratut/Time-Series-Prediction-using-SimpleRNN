@@ -27,8 +27,3 @@ This project treats 28x28 images as a sequence of 28 rows to perform classificat
 - **TensorFlow / Keras**
 - **NumPy**
 - **Matplotlib**
-
-## 🚀 How to Run
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/RamazanKaratut/Time-Series-Prediction-using-SimpleRNN.git](https://github.com/RamazanKaratut/Time-Series-Prediction-using-SimpleRNN.git)
