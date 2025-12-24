@@ -18,4 +18,4 @@ The goal of this project is to perform time-series forecasting. It covers:
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/RamazanKaratut/RNN-Sine-Wave-Prediction.git]
+   git clone [https://github.com/RamazanKaratut/Time-Series-Prediction-using-SimpleRNN]
